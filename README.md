@@ -1,8 +1,4 @@
 # To-do-App
-to do list 
- [Baidu][]
-  标记可以这样写: [Baidu]: http://baidu.com
-【点击查看】【】
 【点击查看】:https://tianylcandy.github.io/To-do-App/index.html
 ##  主要技术点：
 - div+css响应式布局
