@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Todo App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<!--提醒开始-->
+<div class="msg">
+        <span class="msg-content"></span>
+        <span class="anchor confirmed">知道了</span>
+
+</div>
+<!--提醒结束-->
+
+<!--总容器开始-->
+<div class="container">
+    <h1>To do APP</h1>
+    <form class="add-task">
+        <input type="text" placeholder="在此添加新任务" autofocus autocomplete="off">
+        <button type="submit">提交</button>
+    </form>
+    <!--清单列表开始-->
+<div class="task-list">
+    <!--任务开始-->
+    <!--<div class="task-item">-->
+    <!--</div>-->
+    <!--任务结束-->
+    <!--任务详情开始-->
+</div>
+    <!--清单列表结束-->
+    <div class="task-detail-mask"></div>
+    <div class="task-detail">
+    </div>
+    <!--任务详情结束-->
+
+
+</div>
+<video class="alerter" src="video/msg_alert.mp3"></video>
+
+<!--总容器结束-->
+<script src="js/jquery.min.js"></script>
+<script src="js/store.js"></script>
+<script src="js/jquery.datetimepicker.full.min.js"></script>
+<script src="js/base.js"></script>
+
+</body>
+</html>
